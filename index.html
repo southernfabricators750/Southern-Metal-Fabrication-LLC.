@@ -1,0 +1,1652 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Southern Fabricators | Structural Steel & Custom Metals - Grand Bay, AL</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter & Space Grotesk for industrial display headings -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Space Grotesk', 'sans-serif'],
+                    },
+                    colors: {
+                        steel: {
+                            950: '#0a0c0e',
+                            900: '#121519',
+                            800: '#1e2329',
+                            700: '#2e353e',
+                            600: '#47515e',
+                            500: '#647182',
+                            400: '#8d99a8',
+                            300: '#b8c1cc',
+                            200: '#dce1e7',
+                            100: '#f1f3f5',
+                        },
+                        amber: {
+                            safety: '#f59e0b',
+                            industrial: '#ea580c',
+                            bright: '#fbbf24',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-steel-950 text-steel-100 font-sans antialiased selection:bg-amber-safety selection:text-steel-950">
+
+    <!-- Top Utility Bar (Desktop) -->
+    <div class="hidden md:block bg-steel-900 border-b border-steel-800 text-xs text-steel-400">
+        <div class="max-w-7xl mx-auto px-6 py-2.5 flex justify-between items-center gap-4">
+            <div class="flex items-center space-x-5">
+                <span class="flex items-center gap-1.5 text-steel-300">
+                    <span class="w-2 h-2 rounded-full bg-amber-safety inline-block"></span>
+                    9110 McCollough Rd, Grand Bay, AL 36541
+                </span>
+                <span class="hidden xl:inline text-steel-400">Mon&ndash;Fri: 8:00 AM &ndash; 3:30 PM (Closed Sat&ndash;Sun)</span>
+                <span class="inline-flex items-center gap-1 text-amber-safety font-semibold">
+                    <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                    <span class="text-steel-200">5.0 (18 Google Reviews)</span>
+                </span>
+            </div>
+            <div class="flex items-center space-x-5 font-medium text-steel-300">
+                <a href="tel:+12512591118" class="hover:text-amber-safety transition-colors">(251) 259-1118</a>
+                <a href="mailto:southernfabricators750@gmail.com" class="hover:text-amber-safety transition-colors">southernfabricators750@gmail.com</a>
+                <a href="https://www.facebook.com/p/Southern-Fabricators-Grand-Bay-100069881666065/" target="_blank" rel="noopener noreferrer" aria-label="Southern Fabricators on Facebook" class="inline-flex items-center gap-1.5 text-steel-300 hover:text-amber-safety transition-colors">
+                    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/>
+                    </svg>
+                    <span>Facebook</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header class="sticky top-0 z-50 bg-steel-950/95 backdrop-blur-md border-b border-steel-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Brand Logo -->
+                <a href="#" class="flex items-center gap-3 group">
+                    <!-- Custom Industrial I-Beam SVG Logo -->
+                    <div class="w-10 h-10 rounded-lg bg-steel-800 border border-steel-700 group-hover:border-amber-safety transition-colors flex items-center justify-center shadow-inner">
+                        <svg class="w-6 h-6 text-amber-safety" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M4 3h16v3h-6v12h6v3H4v-3h6V6H4V3z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <span class="font-display font-bold text-lg sm:text-xl tracking-tight text-white block leading-none">
+                            SOUTHERN FABRICATORS
+                        </span>
+                        <span class="text-[11px] font-semibold tracking-[0.16em] text-amber-safety uppercase block mt-1">
+                            Southern Metal Fabrication LLC
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Links -->
+                <nav class="hidden md:flex items-center space-x-7">
+                    <a href="#services" class="text-sm font-medium text-steel-300 hover:text-amber-safety transition-colors">Services</a>
+                    <a href="#gallery" class="text-sm font-medium text-steel-300 hover:text-amber-safety transition-colors">Shop Gallery</a>
+                    <a href="#capabilities" class="text-sm font-medium text-steel-300 hover:text-amber-safety transition-colors">Capabilities</a>
+                    <a href="#projects" class="text-sm font-medium text-steel-300 hover:text-amber-safety transition-colors">Projects</a>
+                    <a href="#quote" class="inline-flex items-center justify-center px-5 py-2.5 rounded-lg bg-amber-safety hover:bg-amber-bright text-steel-950 font-semibold text-sm transition-all shadow-lg shadow-amber-safety/10">
+                        Request a Quote
+                    </a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" type="button" aria-label="Toggle Menu" class="p-2.5 rounded-lg bg-steel-800 border border-steel-700 text-steel-200 hover:text-white focus:outline-none">
+                        <svg id="menu-icon-open" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                        <svg id="menu-icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden bg-steel-900 border-b border-steel-800 px-4 pt-2 pb-6 space-y-2">
+            <a href="#services" class="mobile-nav-link block px-3 py-3 rounded-lg text-base font-medium text-steel-200 hover:bg-steel-800 hover:text-amber-safety">Services</a>
+            <a href="#gallery" class="mobile-nav-link block px-3 py-3 rounded-lg text-base font-medium text-steel-200 hover:bg-steel-800 hover:text-amber-safety">Shop Gallery</a>
+            <a href="#capabilities" class="mobile-nav-link block px-3 py-3 rounded-lg text-base font-medium text-steel-200 hover:bg-steel-800 hover:text-amber-safety">Capabilities</a>
+            <a href="#projects" class="mobile-nav-link block px-3 py-3 rounded-lg text-base font-medium text-steel-200 hover:bg-steel-800 hover:text-amber-safety">Projects</a>
+            <a href="tel:+12512591118" class="mobile-nav-link block px-3 py-3 rounded-lg text-base font-medium text-steel-200 hover:bg-steel-800 hover:text-amber-safety">Call (251) 259-1118</a>
+            <a href="https://www.facebook.com/p/Southern-Fabricators-Grand-Bay-100069881666065/" target="_blank" rel="noopener noreferrer" class="mobile-nav-link flex items-center gap-2 px-3 py-3 rounded-lg text-base font-medium text-steel-200 hover:bg-steel-800 hover:text-amber-safety">
+                <svg class="w-5 h-5 fill-current text-amber-safety" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/>
+                </svg>
+                <span>Follow on Facebook</span>
+            </a>
+            <div class="pt-2">
+                <a href="#quote" class="mobile-nav-link block w-full text-center px-5 py-3 rounded-lg bg-amber-safety text-steel-950 font-bold text-base">
+                    Request a Quote
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative overflow-hidden bg-steel-950 border-b border-steel-800">
+        <!-- Subtle Industrial Blueprint Grid Background -->
+        <div class="absolute inset-0 opacity-15 pointer-events-none" style="background-image: linear-gradient(to right, #47515e 1px, transparent 1px), linear-gradient(to bottom, #47515e 1px, transparent 1px); background-size: 48px 48px;"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-steel-950 via-steel-950/90 to-steel-900 pointer-events-none"></div>
+
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                    <div class="inline-flex flex-wrap items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-steel-900 border border-steel-700 text-xs font-semibold tracking-wider uppercase text-amber-safety">
+                        <span class="w-2 h-2 rounded-full bg-amber-safety animate-pulse"></span>
+                        <span>9110 McCollough Rd &bull; Grand Bay, AL</span>
+                        <span class="text-steel-600">|</span>
+                        <span class="text-steel-200">&#9733; 5.0 Google Rating (18 Reviews)</span>
+                    </div>
+
+                    <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-[1.1]">
+                        Structural Steel &amp; Custom Metal Fabrication in Grand Bay, AL
+                    </h1>
+
+                    <p class="text-lg sm:text-xl text-steel-300 leading-relaxed max-w-2xl">
+                        Southern Fabricators (Southern Metal Fabrication LLC) builds heavy structural steel packages, industrial mezzanines, architectural stairs and railings, and custom 304 stainless steel assemblies for contractors and facilities across the Alabama Gulf Coast.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row gap-4 pt-2">
+                        <a href="#quote" class="inline-flex items-center justify-center px-7 py-4 rounded-lg bg-amber-safety hover:bg-amber-bright text-steel-950 font-bold text-base transition-all shadow-lg shadow-amber-safety/15">
+                            Request a Bid / Quote
+                            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                            </svg>
+                        </a>
+                        <a href="#gallery" class="inline-flex items-center justify-center px-7 py-4 rounded-lg bg-steel-800 hover:bg-steel-700 border border-steel-700 text-white font-semibold text-base transition-all">
+                            <svg class="w-5 h-5 mr-2 text-amber-safety" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                            </svg>
+                            View Shop &amp; Project Gallery
+                        </a>
+                    </div>
+
+                    <div class="p-5 rounded-xl bg-steel-900/60 border border-steel-800/80 text-sm text-steel-400 space-y-3">
+                        <div>
+                            <p class="font-semibold text-steel-200 mb-1">Direct Blueprints, PDFs &amp; CAD Files</p>
+                            <p>Send bid invitations, structural drawings, or DXF/CAD files directly to <a href="mailto:southernfabricators750@gmail.com" class="text-amber-safety hover:underline font-medium">southernfabricators750@gmail.com</a> or submit your project scope below.</p>
+                        </div>
+                        <div class="pt-3 border-t border-steel-800/80 flex flex-wrap items-center justify-between gap-4">
+                            <span class="text-xs text-steel-400">See recent shop builds &amp; field updates:</span>
+                            <a href="https://www.facebook.com/p/Southern-Fabricators-Grand-Bay-100069881666065/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg bg-steel-800 hover:bg-steel-700 border border-steel-700 text-xs font-semibold text-white hover:text-amber-safety transition-colors shrink-0">
+                                <svg class="w-4 h-4 fill-current text-amber-safety" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/>
+                                </svg>
+                                <span>Southern Fabricators on Facebook</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Right Architectural / Blueprint Spec Card -->
+                <div class="lg:col-span-5">
+                    <div class="rounded-2xl bg-steel-900 border border-steel-800 p-6 sm:p-8 shadow-2xl relative">
+                        <div class="flex justify-between items-center pb-5 mb-6 border-b border-steel-800">
+                            <div>
+                                <span class="text-xs font-mono uppercase tracking-widest text-amber-safety">Grand Bay Shop</span>
+                                <h2 class="font-display text-xl font-bold text-white mt-0.5">Fabrication Readiness</h2>
+                            </div>
+                            <span class="px-3 py-1 rounded-md bg-steel-800 border border-steel-700 font-mono text-xs text-steel-300">
+                                DWG-2026-GB
+                            </span>
+                        </div>
+
+                        <!-- Architectural Steel Diagram SVG -->
+                        <div class="rounded-xl bg-steel-950 border border-steel-800 p-5 mb-6">
+                            <svg viewBox="0 0 360 150" class="w-full h-auto" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Grid lines -->
+                                <line x1="0" y1="30" x2="360" y2="30" stroke="#1e2329" stroke-width="1"/>
+                                <line x1="0" y1="75" x2="360" y2="75" stroke="#1e2329" stroke-width="1"/>
+                                <line x1="0" y1="120" x2="360" y2="120" stroke="#1e2329" stroke-width="1"/>
+                                <line x1="90" y1="0" x2="90" y2="150" stroke="#1e2329" stroke-width="1"/>
+                                <line x1="180" y1="0" x2="180" y2="150" stroke="#1e2329" stroke-width="1"/>
+                                <line x1="270" y1="0" x2="270" y2="150" stroke="#1e2329" stroke-width="1"/>
+                                
+                                <!-- Structural Wide-Flange Beam Profile -->
+                                <path d="M40 25H130V38H92V112H130V125H40V112H78V38H40V25Z" fill="#2e353e" stroke="#f59e0b" stroke-width="2"/>
+                                
+                                <!-- Dimension Callout Lines -->
+                                <line x1="145" y1="25" x2="145" y2="125" stroke="#8d99a8" stroke-width="1" stroke-dasharray="3 3"/>
+                                <line x1="140" y1="25" x2="150" y2="25" stroke="#8d99a8" stroke-width="1.5"/>
+                                <line x1="140" y1="125" x2="150" y2="125" stroke="#8d99a8" stroke-width="1.5"/>
+                                <text x="155" y="79" fill="#dce1e7" font-family="monospace" font-size="11">W12x26 ASTM A992</text>
+                                
+                                <!-- Bolt Gusset Plate Detail -->
+                                <rect x="235" y="45" width="85" height="60" rx="4" fill="#1e2329" stroke="#647182" stroke-width="1.5"/>
+                                <circle cx="255" cy="63" r="4" fill="#f59e0b"/>
+                                <circle cx="300" cy="63" r="4" fill="#f59e0b"/>
+                                <circle cx="255" cy="87" r="4" fill="#f59e0b"/>
+                                <circle cx="300" cy="87" r="4" fill="#f59e0b"/>
+                                <text x="235" y="122" fill="#8d99a8" font-family="monospace" font-size="10">3/8" GUSSET PLATE</text>
+                            </svg>
+                        </div>
+
+                        <ul class="space-y-3 text-sm text-steel-300">
+                            <li class="flex items-start gap-3">
+                                <svg class="w-5 h-5 text-amber-safety shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                </svg>
+                                <span>Full structural &amp; miscellaneous steel packages for General Contractors</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <svg class="w-5 h-5 text-amber-safety shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                </svg>
+                                <span>MIG, TIG &amp; Flux-Core welding in carbon steel, 304/316 stainless, and aluminum</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <svg class="w-5 h-5 text-amber-safety shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                </svg>
+                                <span>Direct shop-to-site flatbed delivery from 9110 McCollough Rd across the Gulf Coast</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop & Fabrication Photo Gallery Section -->
+    <section id="gallery" class="py-20 lg:py-28 bg-steel-950 border-b border-steel-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-10">
+                <div class="max-w-2xl">
+                    <span class="text-xs font-bold tracking-[0.2em] uppercase text-amber-safety block mb-3">Shop Floor &amp; Field Showcase</span>
+                    <h2 class="font-display text-3xl sm:text-4xl font-bold text-white tracking-tight">
+                        Shop &amp; Fabrication Photo Gallery
+                    </h2>
+                    <p class="text-steel-300 text-base sm:text-lg mt-3 leading-relaxed">
+                        Browse structural steel builds, custom handrails, mezzanines, stainless work, and park furnishings from our Grand Bay facility. Click any card to inspect full-size, or add your own shop photos directly below.
+                    </p>
+                </div>
+
+                <!-- Interactive Shop Photo Uploader Tool -->
+                <div class="rounded-xl bg-steel-900 border border-steel-700/80 p-4 flex flex-col sm:flex-row items-start sm:items-center gap-3 shrink-0">
+                    <div class="text-xs text-steel-300">
+                        <span class="font-semibold text-white block">Add Your Google / Facebook Shop Photos</span>
+                        <span class="text-steel-400">Preview real photos immediately in this gallery</span>
+                    </div>
+                    <label for="shop-photo-upload" class="cursor-pointer inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-amber-safety hover:bg-amber-bright text-steel-950 font-bold text-xs transition-colors shrink-0">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/>
+                        </svg>
+                        <span>Upload Photos</span>
+                    </label>
+                    <input id="shop-photo-upload" type="file" accept="image/*" multiple class="hidden">
+                </div>
+            </div>
+
+            <!-- Category Filter Buttons -->
+            <div class="flex flex-wrap gap-2.5 mb-10" role="tablist" aria-label="Gallery Categories">
+                <button type="button" data-filter="all" class="gallery-filter-btn active px-4 py-2.5 rounded-lg text-xs sm:text-sm font-semibold bg-amber-safety text-steel-950 border border-amber-safety transition-all">
+                    All Work
+                </button>
+                <button type="button" data-filter="structural" class="gallery-filter-btn px-4 py-2.5 rounded-lg text-xs sm:text-sm font-semibold bg-steel-900 text-steel-300 hover:text-white border border-steel-700 transition-all">
+                    Structural Steel
+                </button>
+                <button type="button" data-filter="handrails" class="gallery-filter-btn px-4 py-2.5 rounded-lg text-xs sm:text-sm font-semibold bg-steel-900 text-steel-300 hover:text-white border border-steel-700 transition-all">
+                    Handrails &amp; Grating
+                </button>
+                <button type="button" data-filter="mezzanines" class="gallery-filter-btn px-4 py-2.5 rounded-lg text-xs sm:text-sm font-semibold bg-steel-900 text-steel-300 hover:text-white border border-steel-700 transition-all">
+                    Industrial Mezzanines
+                </button>
+                <button type="button" data-filter="stainless" class="gallery-filter-btn px-4 py-2.5 rounded-lg text-xs sm:text-sm font-semibold bg-steel-900 text-steel-300 hover:text-white border border-steel-700 transition-all">
+                    Custom Stainless &amp; Site Furnishings
+                </button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div id="gallery-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Gallery Item 1: Structural Wide-Flange & Column Package -->
+                <div class="gallery-card group rounded-2xl bg-steel-900 border border-steel-800 hover:border-amber-safety/70 overflow-hidden cursor-pointer transition-all flex flex-col"
+                     data-category="structural"
+                     data-title="Structural Wide-Flange &amp; HSS Column Package"
+                     data-tag="Structural Steel // Grand Bay Shop"
+                     data-caption="Shop-fabricated ASTM A992 wide-flange beams, HSS columns, and bolted moment end plates staged for commercial delivery in Mobile County.">
+                    <div class="relative aspect-[16/10] bg-steel-950 border-b border-steel-800 overflow-hidden">
+                        <svg viewBox="0 0 400 250" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" fill="none">
+                            <defs>
+                                <linearGradient id="steelBg1" x1="0" y1="0" x2="400" y2="250" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0%" stop-color="#121519"/>
+                                    <stop offset="100%" stop-color="#1e2329"/>
+                                </linearGradient>
+                            </defs>
+                            <rect width="400" height="250" fill="url(#steelBg1)"/>
+                            <g opacity="0.18" stroke="#647182" stroke-width="1">
+                                <path d="M0 50H400M0 100H400M0 150H400M0 200H400M80 0V250M160 0V250M240 0V250M320 0V250"/>
+                            </g>
+                            <!-- Heavy I-Beam Perspective Render -->
+                            <polygon points="40,75 310,45 360,65 90,95" fill="#47515e"/>
+                            <polygon points="90,95 360,65 360,80 90,110" fill="#f59e0b"/>
+                            <polygon points="75,108 345,78 345,155 75,185" fill="#2e353e"/>
+                            <polygon points="40,185 310,155 360,175 90,205" fill="#47515e"/>
+                            <polygon points="90,205 360,175 360,190 90,220" fill="#d97706"/>
+                            <!-- Welded Shear Tab & Bolts -->
+                            <rect x="115" y="112" width="34" height="58" rx="3" fill="#1e2329" stroke="#f59e0b" stroke-width="2"/>
+                            <circle cx="132" cy="126" r="4" fill="#fbbf24"/>
+                            <circle cx="132" cy="141" r="4" fill="#fbbf24"/>
+                            <circle cx="132" cy="156" r="4" fill="#fbbf24"/>
+                            <text x="24" y="32" fill="#f59e0b" font-family="monospace" font-size="11" font-weight="bold">PHOTO SLOT 01 // STRUCTURAL STEEL</text>
+                        </svg>
+                        <span class="absolute bottom-3 left-3 px-2.5 py-1 rounded bg-steel-950/90 border border-steel-700 text-[11px] font-mono text-amber-safety">
+                            Structural Steel
+                        </span>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-display text-lg font-bold text-white group-hover:text-amber-safety transition-colors">
+                                Structural Wide-Flange &amp; HSS Column Package
+                            </h3>
+                            <p class="text-xs text-steel-400 mt-1.5 leading-relaxed">
+                                ASTM A992 beams, base plates, and gusset assemblies primed and staged at 9110 McCollough Rd.
+                            </p>
+                        </div>
+                        <div class="mt-4 pt-3 border-t border-steel-800/80 flex items-center justify-between text-[11px] font-mono text-steel-400">
+                            <span>9110 McCollough Rd Shop</span>
+                            <span class="text-amber-safety">Inspect &rarr;</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 2: Code-Compliant Guardrails & Steel Egress Stairs -->
+                <div class="gallery-card group rounded-2xl bg-steel-900 border border-steel-800 hover:border-amber-safety/70 overflow-hidden cursor-pointer transition-all flex flex-col"
+                     data-category="handrails"
+                     data-title="IBC / OSHA Handrails &amp; Steel Pan Egress Stairs"
+                     data-tag="Handrails &amp; Grating // Division 05 50 00"
+                     data-caption="Custom-welded steel stringer stairs, continuous grab rails, and galvanized bar grating treads built for commercial and educational facilities.">
+                    <div class="relative aspect-[16/10] bg-steel-950 border-b border-steel-800 overflow-hidden">
+                        <svg viewBox="0 0 400 250" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" fill="none">
+                            <rect width="400" height="250" fill="#121519"/>
+                            <g opacity="0.16" stroke="#647182" stroke-width="1">
+                                <path d="M0 50H400M0 100H400M0 150H400M0 200H400M80 0V250M160 0V250M240 0V250M320 0V250"/>
+                            </g>
+                            <!-- Stair Stringer & Treads -->
+                            <path d="M55 205 L265 75 L355 75" stroke="#47515e" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M70 190 H115 V165 H160 V140 H205 V115 H250 V90 H345" stroke="#8d99a8" stroke-width="5" stroke-linejoin="round"/>
+                            <!-- Top Safety Handrail & Pickets -->
+                            <path d="M55 135 L265 25 L355 25" stroke="#f59e0b" stroke-width="5" stroke-linecap="round"/>
+                            <path d="M55 165 L265 50 L355 50" stroke="#d97706" stroke-width="3" stroke-linecap="round"/>
+                            <line x1="85" y1="185" x2="85" y2="120" stroke="#b8c1cc" stroke-width="3"/>
+                            <line x1="145" y1="150" x2="145" y2="88" stroke="#b8c1cc" stroke-width="3"/>
+                            <line x1="205" y1="115" x2="205" y2="56" stroke="#b8c1cc" stroke-width="3"/>
+                            <line x1="265" y1="75" x2="265" y2="25" stroke="#b8c1cc" stroke-width="3"/>
+                            <line x1="335" y1="75" x2="335" y2="25" stroke="#b8c1cc" stroke-width="3"/>
+                            <text x="24" y="32" fill="#f59e0b" font-family="monospace" font-size="11" font-weight="bold">PHOTO SLOT 02 // HANDRAILS &amp; STAIRS</text>
+                        </svg>
+                        <span class="absolute bottom-3 left-3 px-2.5 py-1 rounded bg-steel-950/90 border border-steel-700 text-[11px] font-mono text-amber-safety">
+                            Handrails &amp; Grating
+                        </span>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-display text-lg font-bold text-white group-hover:text-amber-safety transition-colors">
+                                IBC / OSHA Handrails &amp; Steel Egress Stairs
+                            </h3>
+                            <p class="text-xs text-steel-400 mt-1.5 leading-relaxed">
+                                Continuous welded pipe railings, steel pan stairs, and bar grating catwalks built to exact architectural elevations.
+                            </p>
+                        </div>
+                        <div class="mt-4 pt-3 border-t border-steel-800/80 flex items-center justify-between text-[11px] font-mono text-steel-400">
+                            <span>Mobile &amp; Saraland Builds</span>
+                            <span class="text-amber-safety">Inspect &rarr;</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 3: Heavy-Duty Industrial Mezzanine Framing -->
+                <div class="gallery-card group rounded-2xl bg-steel-900 border border-steel-800 hover:border-amber-safety/70 overflow-hidden cursor-pointer transition-all flex flex-col"
+                     data-category="mezzanines"
+                     data-title="Heavy-Duty Industrial Mezzanine &amp; Access Platform"
+                     data-tag="Industrial Mezzanines // Gulf Coast Facilities"
+                     data-caption="High-load structural steel mezzanine framing, bar grating deck panels, kickplates, and safety swing gates for warehouse and plant operations.">
+                    <div class="relative aspect-[16/10] bg-steel-950 border-b border-steel-800 overflow-hidden">
+                        <svg viewBox="0 0 400 250" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" fill="none">
+                            <rect width="400" height="250" fill="#121519"/>
+                            <g opacity="0.16" stroke="#647182" stroke-width="1">
+                                <path d="M0 50H400M0 100H400M0 150H400M0 200H400M80 0V250M160 0V250M240 0V250M320 0V250"/>
+                            </g>
+                            <!-- Mezzanine Deck & Columns -->
+                            <rect x="45" y="110" width="310" height="16" fill="#f59e0b"/>
+                            <rect x="45" y="65" width="310" height="45" stroke="#8d99a8" stroke-width="2.5" stroke-dasharray="6 4"/>
+                            <line x1="105" y1="65" x2="105" y2="110" stroke="#8d99a8" stroke-width="2"/>
+                            <line x1="170" y1="65" x2="170" y2="110" stroke="#8d99a8" stroke-width="2"/>
+                            <line x1="235" y1="65" x2="235" y2="110" stroke="#8d99a8" stroke-width="2"/>
+                            <line x1="300" y1="65" x2="300" y2="110" stroke="#8d99a8" stroke-width="2"/>
+                            <!-- Support Columns & Diagonal Bracing -->
+                            <rect x="65" y="126" width="16" height="92" fill="#647182"/>
+                            <rect x="192" y="126" width="16" height="92" fill="#647182"/>
+                            <rect x="319" y="126" width="16" height="92" fill="#647182"/>
+                            <line x1="81" y1="132" x2="192" y2="212" stroke="#47515e" stroke-width="3"/>
+                            <line x1="319" y1="132" x2="208" y2="212" stroke="#47515e" stroke-width="3"/>
+                            <line x1="30" y1="218" x2="370" y2="218" stroke="#2e353e" stroke-width="5"/>
+                            <text x="24" y="32" fill="#f59e0b" font-family="monospace" font-size="11" font-weight="bold">PHOTO SLOT 03 // INDUSTRIAL MEZZANINES</text>
+                        </svg>
+                        <span class="absolute bottom-3 left-3 px-2.5 py-1 rounded bg-steel-950/90 border border-steel-700 text-[11px] font-mono text-amber-safety">
+                            Industrial Mezzanines
+                        </span>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-display text-lg font-bold text-white group-hover:text-amber-safety transition-colors">
+                                Heavy-Duty Industrial Mezzanine &amp; Platform
+                            </h3>
+                            <p class="text-xs text-steel-400 mt-1.5 leading-relaxed">
+                                Custom structural framing, bar grating decking, and perimeter guardrails engineered for high-load industrial plants.
+                            </p>
+                        </div>
+                        <div class="mt-4 pt-3 border-t border-steel-800/80 flex items-center justify-between text-[11px] font-mono text-steel-400">
+                            <span>Gulf Coast Industrial</span>
+                            <span class="text-amber-safety">Inspect &rarr;</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 4: 11-Gauge 304 Stainless Steel Assemblies -->
+                <div class="gallery-card group rounded-2xl bg-steel-900 border border-steel-800 hover:border-amber-safety/70 overflow-hidden cursor-pointer transition-all flex flex-col"
+                     data-category="stainless"
+                     data-title="Precision 11-Gauge 304 Stainless Steel Assemblies"
+                     data-tag="Custom Stainless // TIG &amp; MIG Welded"
+                     data-caption="CNC-cut and brake-formed 11-gauge 304 stainless steel enclosures, laboratory supports, and brushed architectural components.">
+                    <div class="relative aspect-[16/10] bg-steel-950 border-b border-steel-800 overflow-hidden">
+                        <svg viewBox="0 0 400 250" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" fill="none">
+                            <rect width="400" height="250" fill="#121519"/>
+                            <defs>
+                                <linearGradient id="ssGrad" x1="80" y1="60" x2="320" y2="200" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0%" stop-color="#dce1e7"/>
+                                    <stop offset="50%" stop-color="#8d99a8"/>
+                                    <stop offset="100%" stop-color="#47515e"/>
+                                </linearGradient>
+                            </defs>
+                            <!-- Formed Stainless Housing / Shroud -->
+                            <polygon points="85,75 275,60 325,95 135,110" fill="url(#ssGrad)"/>
+                            <polygon points="135,110 325,95 325,185 135,200" fill="#2e353e" stroke="#b8c1cc" stroke-width="2"/>
+                            <polygon points="85,75 135,110 135,200 85,165" fill="#1e2329" stroke="#8d99a8" stroke-width="2"/>
+                            <!-- TIG Weld Bead Highlight -->
+                            <line x1="135" y1="110" x2="135" y2="200" stroke="#f59e0b" stroke-width="2.5" stroke-dasharray="4 3"/>
+                            <rect x="170" y="130" width="115" height="42" rx="4" fill="#121519" stroke="#f59e0b" stroke-width="1.5"/>
+                            <text x="182" y="155" fill="#dce1e7" font-family="monospace" font-size="11">11GA 304 SS</text>
+                            <text x="24" y="32" fill="#f59e0b" font-family="monospace" font-size="11" font-weight="bold">PHOTO SLOT 04 // 304 STAINLESS WORK</text>
+                        </svg>
+                        <span class="absolute bottom-3 left-3 px-2.5 py-1 rounded bg-steel-950/90 border border-steel-700 text-[11px] font-mono text-amber-safety">
+                            Custom Stainless
+                        </span>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-display text-lg font-bold text-white group-hover:text-amber-safety transition-colors">
+                                Precision 11-Gauge 304 Stainless Assemblies
+                            </h3>
+                            <p class="text-xs text-steel-400 mt-1.5 leading-relaxed">
+                                Custom-formed stainless steel shrouds, laboratory frames, and corrosion-resistant marine/coastal brackets.
+                            </p>
+                        </div>
+                        <div class="mt-4 pt-3 border-t border-steel-800/80 flex items-center justify-between text-[11px] font-mono text-steel-400">
+                            <span>304 / 316 Stainless</span>
+                            <span class="text-amber-safety">Inspect &rarr;</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 5: Municipal Steel Park Benches & Picnic Table Frames -->
+                <div class="gallery-card group rounded-2xl bg-steel-900 border border-steel-800 hover:border-amber-safety/70 overflow-hidden cursor-pointer transition-all flex flex-col"
+                     data-category="stainless"
+                     data-title="Municipal Steel Park Benches &amp; Site Furnishings"
+                     data-tag="Site Furnishings // Parks &amp; Campuses"
+                     data-caption="Heavy-duty welded steel park benches, picnic table frames, and commercial trash receptacles built for municipal parks and schools.">
+                    <div class="relative aspect-[16/10] bg-steel-950 border-b border-steel-800 overflow-hidden">
+                        <svg viewBox="0 0 400 250" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" fill="none">
+                            <rect width="400" height="250" fill="#121519"/>
+                            <line x1="35" y1="205" x2="365" y2="205" stroke="#2e353e" stroke-width="4"/>
+                            <!-- Heavy Duty Steel Park Bench -->
+                            <rect x="65" y="95" width="175" height="14" rx="3" fill="#f59e0b"/>
+                            <rect x="65" y="116" width="175" height="14" rx="3" fill="#d97706"/>
+                            <rect x="65" y="142" width="175" height="14" rx="3" fill="#8d99a8"/>
+                            <path d="M88 95 V205 M218 95 V205 M88 142 L72 205 M218 142 L234 205" stroke="#647182" stroke-width="5" stroke-linecap="round"/>
+                            <!-- Commercial Steel Receptacle -->
+                            <rect x="275" y="122" width="58" height="83" rx="5" fill="#1e2329" stroke="#f59e0b" stroke-width="2.5"/>
+                            <line x1="290" y1="134" x2="290" y2="192" stroke="#647182" stroke-width="3"/>
+                            <line x1="304" y1="134" x2="304" y2="192" stroke="#647182" stroke-width="3"/>
+                            <line x1="318" y1="134" x2="318" y2="192" stroke="#647182" stroke-width="3"/>
+                            <text x="24" y="32" fill="#f59e0b" font-family="monospace" font-size="11" font-weight="bold">PHOTO SLOT 05 // SITE FURNISHINGS</text>
+                        </svg>
+                        <span class="absolute bottom-3 left-3 px-2.5 py-1 rounded bg-steel-950/90 border border-steel-700 text-[11px] font-mono text-amber-safety">
+                            Site Furnishings
+                        </span>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-display text-lg font-bold text-white group-hover:text-amber-safety transition-colors">
+                                Municipal Park Benches &amp; Site Furnishings
+                            </h3>
+                            <p class="text-xs text-steel-400 mt-1.5 leading-relaxed">
+                                Heavy-gauge welded park benches, picnic table frames, and commercial receptacles built for public spaces.
+                            </p>
+                        </div>
+                        <div class="mt-4 pt-3 border-t border-steel-800/80 flex items-center justify-between text-[11px] font-mono text-steel-400">
+                            <span>Municipal &amp; Commercial</span>
+                            <span class="text-amber-safety">Inspect &rarr;</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 6: Rooftop Dunnage, Bar Grating & Unistrut Frames -->
+                <div class="gallery-card group rounded-2xl bg-steel-900 border border-steel-800 hover:border-amber-safety/70 overflow-hidden cursor-pointer transition-all flex flex-col"
+                     data-category="structural"
+                     data-title="Rooftop Mechanical Dunnage &amp; Unistrut Supports"
+                     data-tag="Structural &amp; Misc Metals // Commercial"
+                     data-caption="Galvanized rooftop HVAC dunnage frames, bar grating walkways, and overhead Unistrut support grids for healthcare and commercial buildings.">
+                    <div class="relative aspect-[16/10] bg-steel-950 border-b border-steel-800 overflow-hidden">
+                        <svg viewBox="0 0 400 250" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" fill="none">
+                            <rect width="400" height="250" fill="#121519"/>
+                            <!-- Dunnage Frame & Bar Grating Grid -->
+                            <rect x="55" y="135" width="290" height="14" fill="#f59e0b"/>
+                            <rect x="85" y="149" width="14" height="58" fill="#647182"/>
+                            <rect x="193" y="149" width="14" height="58" fill="#647182"/>
+                            <rect x="301" y="149" width="14" height="58" fill="#647182"/>
+                            <rect x="70" y="207" width="44" height="8" fill="#8d99a8"/>
+                            <rect x="178" y="207" width="44" height="8" fill="#8d99a8"/>
+                            <rect x="286" y="207" width="44" height="8" fill="#8d99a8"/>
+                            <!-- Bar Grating Cross Hatch -->
+                            <rect x="75" y="85" width="250" height="50" fill="#1e2329" stroke="#8d99a8" stroke-width="2"/>
+                            <path d="M95 85V135M115 85V135M135 85V135M155 85V135M175 85V135M195 85V135M215 85V135M235 85V135M255 85V135M275 85V135M295 85V135M315 85V135M75 102H325M75 118H325" stroke="#47515e" stroke-width="1.5"/>
+                            <text x="24" y="32" fill="#f59e0b" font-family="monospace" font-size="11" font-weight="bold">PHOTO SLOT 06 // DUNNAGE &amp; GRATING</text>
+                        </svg>
+                        <span class="absolute bottom-3 left-3 px-2.5 py-1 rounded bg-steel-950/90 border border-steel-700 text-[11px] font-mono text-amber-safety">
+                            Structural &amp; Grating
+                        </span>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-display text-lg font-bold text-white group-hover:text-amber-safety transition-colors">
+                                Rooftop Mechanical Dunnage &amp; Grating Frames
+                            </h3>
+                            <p class="text-xs text-steel-400 mt-1.5 leading-relaxed">
+                                Galvanized structural dunnage steel, bar grating platforms, and Unistrut framing packages for commercial roofs.
+                            </p>
+                        </div>
+                        <div class="mt-4 pt-3 border-t border-steel-800/80 flex items-center justify-between text-[11px] font-mono text-steel-400">
+                            <span>Healthcare &amp; Commercial</span>
+                            <span class="text-amber-safety">Inspect &rarr;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Google Reviews & Customer Reputation Strip -->
+            <div class="mt-14 rounded-2xl bg-steel-900 border border-steel-800 p-6 sm:p-8">
+                <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6 pb-6 mb-6 border-b border-steel-800">
+                    <div>
+                        <div class="flex items-center gap-2 text-amber-safety text-lg">
+                            <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            <span class="font-display font-bold text-white text-xl">5.0 Out of 5 Stars</span>
+                            <span class="text-xs font-mono uppercase tracking-wider px-2.5 py-1 rounded bg-steel-800 text-steel-300 border border-steel-700">
+                                18 Google Reviews
+                            </span>
+                        </div>
+                        <p class="text-sm text-steel-400 mt-1">
+                            Verified customer feedback for Southern Fabricators &bull; 9110 McCollough Rd, Grand Bay, AL
+                        </p>
+                    </div>
+                    <a href="https://www.facebook.com/p/Southern-Fabricators-Grand-Bay-100069881666065/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-steel-800 hover:bg-steel-700 border border-steel-700 text-xs font-semibold text-white hover:text-amber-safety transition-colors self-start lg:self-auto">
+                        <svg class="w-4 h-4 fill-current text-amber-safety" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/>
+                        </svg>
+                        <span>More Photos &amp; Updates on Facebook</span>
+                    </a>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-6">
+                    <blockquote class="rounded-xl bg-steel-950 border border-steel-800/90 p-5">
+                        <div class="text-amber-safety text-sm mb-2">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p class="text-steel-200 text-sm sm:text-base italic leading-relaxed">
+                            &ldquo;Ryan and his crew do amazing work and always go above and beyond.&rdquo;
+                        </p>
+                        <footer class="mt-3 text-xs font-mono text-steel-400">
+                            &mdash; Verified Google Reviewer &bull; Grand Bay, AL
+                        </footer>
+                    </blockquote>
+
+                    <blockquote class="rounded-xl bg-steel-950 border border-steel-800/90 p-5">
+                        <div class="text-amber-safety text-sm mb-2">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p class="text-steel-200 text-sm sm:text-base italic leading-relaxed">
+                            &ldquo;Great customer service, helpful and reliable.&rdquo;
+                        </p>
+                        <footer class="mt-3 text-xs font-mono text-steel-400">
+                            &mdash; Verified Google Reviewer &bull; Mobile County, AL
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Services Grid -->
+    <section id="services" class="py-20 lg:py-28 bg-steel-900 border-b border-steel-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mb-16">
+                <span class="text-xs font-bold tracking-[0.2em] uppercase text-amber-safety block mb-3">Core Fabrication Divisions</span>
+                <h2 class="font-display text-3xl sm:text-4xl font-bold text-white tracking-tight">
+                    Engineered Metalwork Built to Exact Tolerances
+                </h2>
+                <p class="text-steel-300 text-lg mt-4 leading-relaxed">
+                    From primary structural framing and heavy industrial mezzanines to precision 11-gauge stainless steel and municipal site furnishings, Southern Fabricators executes complex specifications on schedule.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1: Structural Steel Fabrication -->
+                <div class="group rounded-2xl bg-steel-950 border border-steel-800 hover:border-amber-safety/60 p-7 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <div class="w-12 h-12 rounded-xl bg-steel-900 border border-steel-700 group-hover:bg-amber-safety/10 group-hover:border-amber-safety flex items-center justify-center text-amber-safety transition-colors">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                                </svg>
+                            </div>
+                            <span class="font-mono text-xs text-steel-500">DIV 05 // 05 12 00</span>
+                        </div>
+                        <h3 class="font-display text-xl font-bold text-white mb-3">Structural Steel Fabrication</h3>
+                        <p class="text-sm text-steel-300 leading-relaxed mb-5">
+                            Complete fabrication of primary and secondary structural steel packages for commercial, healthcare, educational, and institutional builds.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-steel-800/80">
+                        <ul class="space-y-2 text-xs text-steel-400">
+                            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-amber-safety"></span>Wide-Flange Beams &amp; HSS Columns</li>
+                            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-amber-safety"></span>Rooftop Mechanical Dunnage &amp; Framing</li>
+                            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-amber-safety"></span>Anchor Bolts, Embeds &amp; Moment Plates</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 2: Miscellaneous Metals & Architectural Steel -->
+                <div class="group rounded-2xl bg-steel-950 border border-steel-800 hover:border-amber-safety/60 p-7 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <div class="w-12 h-12 rounded-xl bg-steel-900 border border-steel-700 group-hover:bg-amber-safety/10 group-hover:border-amber-safety flex items-center justify-center text-amber-safety transition-colors">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"/>
+                                </svg>
+                            </div>
+                            <span class="font-mono text-xs text-steel-500">DIV 05 // 05 50 00</span>
+                        </div>
+                        <h3 class="font-display text-xl font-bold text-white mb-3">Miscellaneous &amp; Architectural Steel</h3>
+                        <p class="text-sm text-steel-300 leading-relaxed mb-5">
+                            Code-compliant egress stairs, OSHA/IBC safety railings, bar grating, and Unistrut framing systems built to architectural drawings.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-steel-800/80">
+                        <ul class="space-y-2 text-xs text-steel-400">
+                            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-amber-safety"></span>Custom Handrails &amp; Guardrails</li>
+                            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-amber-safety"></span>Steel Pan &amp; Grating Egress Stairs</li>
+                            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-amber-safety"></span>Bar Grating &amp; Unistrut Support Framing</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 3: Industrial Mezzanines & Platforms -->
+                <div class="group rounded-2xl bg-steel-950 border border-steel-800 hover:border-amber-safety/60 p-7 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <div class="w-12 h-12 rounded-xl bg-steel-900 border border-steel-700 group-hover:bg-amber-safety/10 group-hover:border-amber-safety flex items-center justify-center text-amber-safety transition-colors">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+                                </svg>
+                            </div>
+                            <span class="font-mono text-xs text-steel-500">HEAVY // INDUSTRIAL</span>
+                        </div>
+                        <h3 class="font-display text-xl font-bold text-white mb-3">Industrial Mezzanines &amp; Platforms</h3>
+                        <p class="text-sm text-steel-300 leading-relaxed mb-5">
+                            Custom structural steel mezzanines, equipment access catwalks, and high-load storage platforms with full material procurement.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-steel-800/80">
+                        <ul class="space-y-2 text-xs text-steel-400">
+                            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-amber-safety"></span>Custom Structural Framing &amp; Decking</li>
+                            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-amber-safety"></span>Plant Catwalks &amp; Maintenance Platforms</li>
+                            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-amber-safety"></span>Safety Swing Gates &amp; Kickplates</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 4: Custom Plate, Sheet & Stainless Steel Work -->
+                <div class="group rounded-2xl bg-steel-950 border border-steel-800 hover:border-amber-safety/60 p-7 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <div class="w-12 h-12 rounded-xl bg-steel-900 border border-steel-700 group-hover:bg-amber-safety/10 group-hover:border-amber-safety flex items-center justify-center text-amber-safety transition-colors">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                </svg>
+                            </div>
+                            <span class="font-mono text-xs text-steel-500">ALLOYS // 304 SS &amp; AL</span>
+                        </div>
+                        <h3 class="font-display text-xl font-bold text-white mb-3">Custom Plate, Sheet &amp; Stainless Work</h3>
+                        <p class="text-sm text-steel-300 leading-relaxed mb-5">
+                            Precision 11-gauge 304 stainless steel, carbon steel plate, and aluminum components formed and TIG/MIG welded for custom builds.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-steel-800/80">
+                        <ul class="space-y-2 text-xs text-steel-400">
+                            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-amber-safety"></span>11-Gauge 304 &amp; 316 Stainless Assemblies</li>
+                            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-amber-safety"></span>Custom Brackets, Gussets &amp; Shrouds</li>
+                            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-amber-safety"></span>Aluminum &amp; Carbon Plate Forming</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 5: Site Furnishings & Custom Park/Commercial Fabrications -->
+                <div class="group rounded-2xl bg-steel-950 border border-steel-800 hover:border-amber-safety/60 p-7 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <div class="w-12 h-12 rounded-xl bg-steel-900 border border-steel-700 group-hover:bg-amber-safety/10 group-hover:border-amber-safety flex items-center justify-center text-amber-safety transition-colors">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/>
+                                </svg>
+                            </div>
+                            <span class="font-mono text-xs text-steel-500">SITE // MUNICIPAL</span>
+                        </div>
+                        <h3 class="font-display text-xl font-bold text-white mb-3">Site Furnishings &amp; Park Fabrications</h3>
+                        <p class="text-sm text-steel-300 leading-relaxed mb-5">
+                            Commercial-grade exterior steel site amenities built for municipal parks, school campuses, and retail developments.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-steel-800/80">
+                        <ul class="space-y-2 text-xs text-steel-400">
+                            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-amber-safety"></span>Heavy-Duty Steel Park Benches</li>
+                            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-amber-safety"></span>Welded Picnic Table Frames</li>
+                            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-amber-safety"></span>Commercial Trash Receptacles &amp; Bollards</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 6: Shop Fabrication & Field Delivery -->
+                <div class="group rounded-2xl bg-steel-950 border border-steel-800 hover:border-amber-safety/60 p-7 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <div class="w-12 h-12 rounded-xl bg-steel-900 border border-steel-700 group-hover:bg-amber-safety/10 group-hover:border-amber-safety flex items-center justify-center text-amber-safety transition-colors">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/>
+                                </svg>
+                            </div>
+                            <span class="font-mono text-xs text-steel-500">LOGISTICS // GULF COAST</span>
+                        </div>
+                        <h3 class="font-display text-xl font-bold text-white mb-3">Shop Fabrication &amp; Field Delivery</h3>
+                        <p class="text-sm text-steel-300 leading-relaxed mb-5">
+                            Full-service shop production, priming/coating coordination, and scheduled jobsite delivery from our Grand Bay facility.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-steel-800/80">
+                        <ul class="space-y-2 text-xs text-steel-400">
+                            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-amber-safety"></span>Mobile County &amp; Gulf Coast Delivery</li>
+                            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-amber-safety"></span>Phased Sequence Staging for Erectors</li>
+                            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-amber-safety"></span>Shop Primed &amp; Galvanized Finishes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Capabilities & Technical Specs -->
+    <section id="capabilities" class="py-20 lg:py-28 bg-steel-950 border-b border-steel-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-start">
+                <!-- Left Column: Technical Overview -->
+                <div class="lg:col-span-5 space-y-6">
+                    <span class="text-xs font-bold tracking-[0.2em] uppercase text-amber-safety block">Capabilities &amp; Shop Specifications</span>
+                    <h2 class="font-display text-3xl sm:text-4xl font-bold text-white tracking-tight">
+                        Built for Gulf Coast Industrial &amp; Commercial Demands
+                    </h2>
+                    <p class="text-steel-300 leading-relaxed">
+                        Coastal environments demand rigorous material selection, corrosion-resistant finishes, and clean weld execution. From our shop at <strong class="text-white">9110 McCollough Rd</strong>, we partner directly with general contractors, architects, and facility managers.
+                    </p>
+
+                    <!-- Regional Service Area Card -->
+                    <div class="rounded-xl bg-steel-900 border border-steel-800 p-6 space-y-4">
+                        <div class="flex items-center gap-3">
+                            <div class="w-9 h-9 rounded-lg bg-amber-safety/15 text-amber-safety flex items-center justify-center">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                </svg>
+                            </div>
+                            <h3 class="font-display text-lg font-bold text-white">Alabama Gulf Coast Service Footprint</h3>
+                        </div>
+                        <p class="text-sm text-steel-300 leading-relaxed">
+                            Located just minutes off I-10 in <strong class="text-white">Grand Bay, AL</strong>, providing rapid mobilization and steel delivery across commercial, healthcare, educational, and industrial sites:
+                        </p>
+                        <div class="flex flex-wrap gap-2 pt-1">
+                            <span class="px-3 py-1 rounded-md bg-steel-800 text-xs font-medium text-steel-200 border border-steel-700">Grand Bay, AL</span>
+                            <span class="px-3 py-1 rounded-md bg-steel-800 text-xs font-medium text-steel-200 border border-steel-700">Mobile, AL</span>
+                            <span class="px-3 py-1 rounded-md bg-steel-800 text-xs font-medium text-steel-200 border border-steel-700">Saraland, AL</span>
+                            <span class="px-3 py-1 rounded-md bg-steel-800 text-xs font-medium text-steel-200 border border-steel-700">Theodore &amp; Bayou La Batre</span>
+                            <span class="px-3 py-1 rounded-md bg-steel-800 text-xs font-medium text-steel-200 border border-steel-700">Baldwin County</span>
+                            <span class="px-3 py-1 rounded-md bg-steel-800 text-xs font-medium text-steel-200 border border-steel-700">Mississippi Gulf Coast</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: 4 Technical Spec Pillars -->
+                <div class="lg:col-span-7 grid sm:grid-cols-2 gap-6">
+                    <!-- Spec 1 -->
+                    <div class="rounded-xl bg-steel-900 border border-steel-800 p-6">
+                        <div class="font-mono text-xs text-amber-safety uppercase tracking-wider mb-2">01 // Material Capabilities</div>
+                        <h3 class="font-display text-xl font-bold text-white mb-3">Structural Carbon, Stainless &amp; Aluminum</h3>
+                        <p class="text-sm text-steel-300 leading-relaxed mb-4">
+                            Full material procurement and mill test report (MTR) documentation to satisfy commercial and institutional submittals.
+                        </p>
+                        <ul class="space-y-2 text-xs font-mono text-steel-400 border-t border-steel-800 pt-3">
+                            <li>&bull; Structural Carbon Steel (ASTM A36 &amp; A992)</li>
+                            <li>&bull; 304 &amp; 316 Stainless (11ga Sheet &amp; Plate)</li>
+                            <li>&bull; Architectural Aluminum, Bar Grating &amp; Unistrut</li>
+                        </ul>
+                    </div>
+
+                    <!-- Spec 2 -->
+                    <div class="rounded-xl bg-steel-900 border border-steel-800 p-6">
+                        <div class="font-mono text-xs text-amber-safety uppercase tracking-wider mb-2">02 // Drawing &amp; Estimating Workflow</div>
+                        <h3 class="font-display text-xl font-bold text-white mb-3">Direct Blueprint &amp; CAD File Intake</h3>
+                        <p class="text-sm text-steel-300 leading-relaxed mb-4">
+                            Streamlined takeoff and quoting directly from your structural and architectural sets, PDFs, or CAD/DXF files.
+                        </p>
+                        <ul class="space-y-2 text-xs font-mono text-steel-400 border-t border-steel-800 pt-3">
+                            <li>&bull; Email plans: southernfabricators750@gmail.com</li>
+                            <li>&bull; Accepts PDF, DWG, DXF &amp; STEP packages</li>
+                            <li>&bull; Responsive Division 05 bid turnarounds</li>
+                        </ul>
+                    </div>
+
+                    <!-- Spec 3 -->
+                    <div class="rounded-xl bg-steel-900 border border-steel-800 p-6">
+                        <div class="font-mono text-xs text-amber-safety uppercase tracking-wider mb-2">03 // Precision Cutting &amp; Forming</div>
+                        <h3 class="font-display text-xl font-bold text-white mb-3">CNC Profiling, Forming &amp; Welding</h3>
+                        <p class="text-sm text-steel-300 leading-relaxed mb-4">
+                            Tight-tolerance cutting, brake forming, and production welding for intricate base plates, brackets, and architectural assemblies.
+                        </p>
+                        <ul class="space-y-2 text-xs font-mono text-steel-400 border-t border-steel-800 pt-3">
+                            <li>&bull; CNC plate &amp; sheet cutting capabilities</li>
+                            <li>&bull; Press-brake forming &amp; structural rolling</li>
+                            <li>&bull; Clean TIG &amp; MIG welds on exposed stainless</li>
+                        </ul>
+                    </div>
+
+                    <!-- Spec 4 -->
+                    <div class="rounded-xl bg-steel-900 border border-steel-800 p-6">
+                        <div class="font-mono text-xs text-amber-safety uppercase tracking-wider mb-2">04 // Finishes &amp; Corrosion Protection</div>
+                        <h3 class="font-display text-xl font-bold text-white mb-3">Shop Primers, Galvanizing &amp; Finishes</h3>
+                        <p class="text-sm text-steel-300 leading-relaxed mb-4">
+                            Surface preparation and protective finish coordination tailored to interior architectural or coastal exterior exposure.
+                        </p>
+                        <ul class="space-y-2 text-xs font-mono text-steel-400 border-t border-steel-800 pt-3">
+                            <li>&bull; Industrial grey &amp; red-oxide shop primers</li>
+                            <li>&bull; Hot-dip galvanizing &amp; architectural powder coat</li>
+                            <li>&bull; Brushed #4 &amp; bead-blasted stainless finishes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Representative Projects Showcase -->
+    <section id="projects" class="py-20 lg:py-28 bg-steel-900 border-b border-steel-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6">
+                <div>
+                    <span class="text-xs font-bold tracking-[0.2em] uppercase text-amber-safety block mb-3">Representative Regional Work</span>
+                    <h2 class="font-display text-3xl sm:text-4xl font-bold text-white tracking-tight">
+                        Commercial, Institutional &amp; Industrial Scope
+                    </h2>
+                </div>
+                <p class="text-steel-400 text-sm max-w-md">
+                    Examples of structural steel packages, miscellaneous metals, mezzanines, and site furnishings fabricated at our Grand Bay shop.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Project Card 1: Healthcare & Hospital Renovations -->
+                <article class="rounded-2xl bg-steel-950 border border-steel-800 overflow-hidden flex flex-col">
+                    <div class="h-44 bg-steel-900 border-b border-steel-800 p-6 flex items-center justify-center relative overflow-hidden">
+                        <svg viewBox="0 0 280 120" class="w-full h-full" fill="none">
+                            <rect x="20" y="95" width="240" height="8" fill="#2e353e"/>
+                            <rect x="45" y="30" width="10" height="65" fill="#647182"/>
+                            <rect x="135" y="30" width="10" height="65" fill="#647182"/>
+                            <rect x="225" y="30" width="10" height="65" fill="#647182"/>
+                            <rect x="35" y="22" width="210" height="10" fill="#f59e0b"/>
+                            <line x1="55" y1="32" x2="135" y2="95" stroke="#47515e" stroke-width="2"/>
+                            <line x1="135" y1="32" x2="55" y2="95" stroke="#47515e" stroke-width="2"/>
+                            <line x1="145" y1="32" x2="225" y2="95" stroke="#47515e" stroke-width="2"/>
+                            <line x1="225" y1="32" x2="145" y2="95" stroke="#47515e" stroke-width="2"/>
+                        </svg>
+                        <span class="absolute top-3 right-3 px-2.5 py-1 rounded bg-steel-950/90 border border-steel-700 text-[11px] font-mono text-amber-safety">
+                            HEALTHCARE // MOBILE, AL
+                        </span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="text-xs font-semibold text-steel-400 uppercase tracking-wider mb-1">Mobile, AL &bull; Medical &amp; Clinical</div>
+                            <h3 class="font-display text-xl font-bold text-white mb-2">Healthcare &amp; Hospital Renovations</h3>
+                            <p class="text-sm text-steel-300 leading-relaxed">
+                                Structural steel framing, Unistrut overhead equipment supports, code-compliant handrails, and bar grating fabricated for regional medical facilities in Mobile, AL.
+                            </p>
+                        </div>
+                        <div class="mt-5 pt-4 border-t border-steel-800/80 text-xs font-mono text-steel-400">
+                            Scope: Structural Framing, Unistrut Supports, Handrails &amp; Grating
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project Card 2: Educational & Athletic Facilities -->
+                <article class="rounded-2xl bg-steel-950 border border-steel-800 overflow-hidden flex flex-col">
+                    <div class="h-44 bg-steel-900 border-b border-steel-800 p-6 flex items-center justify-center relative overflow-hidden">
+                        <svg viewBox="0 0 280 120" class="w-full h-full" fill="none">
+                            <path d="M40 95 H85 V75 H125 V55 H165 V35 H230" stroke="#8d99a8" stroke-width="4" stroke-linejoin="round"/>
+                            <path d="M40 65 L165 5 H230" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/>
+                            <line x1="55" y1="95" x2="55" y2="58" stroke="#647182" stroke-width="2"/>
+                            <line x1="95" y1="75" x2="95" y2="39" stroke="#647182" stroke-width="2"/>
+                            <line x1="135" y1="55" x2="135" y2="20" stroke="#647182" stroke-width="2"/>
+                            <line x1="175" y1="35" x2="175" y2="5" stroke="#647182" stroke-width="2"/>
+                            <line x1="215" y1="35" x2="215" y2="5" stroke="#647182" stroke-width="2"/>
+                        </svg>
+                        <span class="absolute top-3 right-3 px-2.5 py-1 rounded bg-steel-950/90 border border-steel-700 text-[11px] font-mono text-amber-safety">
+                            EDUCATION // SARALAND &amp; MOBILE
+                        </span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="text-xs font-semibold text-steel-400 uppercase tracking-wider mb-1">Saraland &amp; Mobile, AL &bull; Institutional</div>
+                            <h3 class="font-display text-xl font-bold text-white mb-2">Educational &amp; Athletic Facilities</h3>
+                            <p class="text-sm text-steel-300 leading-relaxed">
+                                Structural and miscellaneous metal fabrication for high school athletic complexes and university science laboratory renovations, including stairs, guardrails, and custom 304 stainless assemblies.
+                            </p>
+                        </div>
+                        <div class="mt-5 pt-4 border-t border-steel-800/80 text-xs font-mono text-steel-400">
+                            Scope: Structural Steel, Stairs, Guardrails &amp; Lab Stainless Work
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project Card 3: Industrial Mezzanines & Commercial Facilities -->
+                <article class="rounded-2xl bg-steel-950 border border-steel-800 overflow-hidden flex flex-col">
+                    <div class="h-44 bg-steel-900 border-b border-steel-800 p-6 flex items-center justify-center relative overflow-hidden">
+                        <svg viewBox="0 0 280 120" class="w-full h-full" fill="none">
+                            <rect x="30" y="45" width="220" height="12" fill="#f59e0b"/>
+                            <rect x="45" y="57" width="12" height="45" fill="#647182"/>
+                            <rect x="134" y="57" width="12" height="45" fill="#647182"/>
+                            <rect x="223" y="57" width="12" height="45" fill="#647182"/>
+                            <rect x="30" y="20" width="220" height="25" stroke="#8d99a8" stroke-width="2" stroke-dasharray="6 4"/>
+                            <line x1="20" y1="102" x2="260" y2="102" stroke="#2e353e" stroke-width="4"/>
+                        </svg>
+                        <span class="absolute top-3 right-3 px-2.5 py-1 rounded bg-steel-950/90 border border-steel-700 text-[11px] font-mono text-amber-safety">
+                            INDUSTRIAL // GULF COAST
+                        </span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="text-xs font-semibold text-steel-400 uppercase tracking-wider mb-1">Mobile County, AL &bull; Industrial</div>
+                            <h3 class="font-display text-xl font-bold text-white mb-2">Industrial Mezzanines &amp; Commercial Facilities</h3>
+                            <p class="text-sm text-steel-300 leading-relaxed">
+                                Custom-engineered structural steel mezzanines, heavy steel framing packages, grating platforms, and safety railings built for Gulf Coast warehouse and industrial operations.
+                            </p>
+                        </div>
+                        <div class="mt-5 pt-4 border-t border-steel-800/80 text-xs font-mono text-steel-400">
+                            Scope: Engineered Mezzanines &amp; Heavy Structural Packages
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project Card 4: Municipal & Community Park Infrastructure -->
+                <article class="rounded-2xl bg-steel-950 border border-steel-800 overflow-hidden flex flex-col">
+                    <div class="h-44 bg-steel-900 border-b border-steel-800 p-6 flex items-center justify-center relative overflow-hidden">
+                        <svg viewBox="0 0 280 120" class="w-full h-full" fill="none">
+                            <!-- Heavy Duty Steel Bench & Site Furnishing Schematic -->
+                            <line x1="25" y1="95" x2="255" y2="95" stroke="#2e353e" stroke-width="3"/>
+                            <rect x="55" y="42" width="110" height="8" rx="2" fill="#f59e0b"/>
+                            <rect x="55" y="64" width="110" height="8" rx="2" fill="#8d99a8"/>
+                            <path d="M68 42 V95 M152 42 V95 M68 64 L58 95 M152 64 L162 95" stroke="#647182" stroke-width="3" stroke-linecap="round"/>
+                            <rect x="195" y="54" width="32" height="41" rx="3" fill="#1e2329" stroke="#f59e0b" stroke-width="2"/>
+                        </svg>
+                        <span class="absolute top-3 right-3 px-2.5 py-1 rounded bg-steel-950/90 border border-steel-700 text-[11px] font-mono text-amber-safety">
+                            MUNICIPAL // SITE FURNISHINGS
+                        </span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="text-xs font-semibold text-steel-400 uppercase tracking-wider mb-1">Alabama Gulf Coast &bull; Public &amp; Commercial</div>
+                            <h3 class="font-display text-xl font-bold text-white mb-2">Municipal &amp; Community Park Infrastructure</h3>
+                            <p class="text-sm text-steel-300 leading-relaxed">
+                                Custom-fabricated heavy-duty steel park benches, welded picnic table frames, and commercial trash receptacles built for long-term outdoor durability.
+                            </p>
+                        </div>
+                        <div class="mt-5 pt-4 border-t border-steel-800/80 text-xs font-mono text-steel-400">
+                            Scope: Steel Benches, Picnic Table Frames &amp; Receptacles
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Quote / Bid Request Section -->
+    <section id="quote" class="py-20 lg:py-28 bg-steel-950">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12">
+                <!-- Left Column: Direct Shop Contact Details -->
+                <div class="lg:col-span-5 space-y-6">
+                    <span class="text-xs font-bold tracking-[0.2em] uppercase text-amber-safety block">Estimating &amp; Direct Shop Contact</span>
+                    <h2 class="font-display text-3xl sm:text-4xl font-bold text-white tracking-tight">
+                        Submit a Bid Invitation or Request a Quote
+                    </h2>
+                    <p class="text-steel-300 leading-relaxed">
+                        Send over your project scope, target bid date, or drawing package. Our Grand Bay shop reviews structural, miscellaneous, and custom metal inquiries promptly.
+                    </p>
+
+                    <!-- Direct Shop Contact Card -->
+                    <div class="rounded-xl bg-steel-900 border border-steel-800 p-6 space-y-4">
+                        <div class="border-b border-steel-800 pb-3">
+                            <h3 class="font-display text-lg font-bold text-white">Southern Fabricators</h3>
+                            <p class="text-xs font-semibold uppercase tracking-wider text-amber-safety">Southern Metal Fabrication LLC</p>
+                        </div>
+
+                        <ul class="space-y-3.5 text-sm text-steel-300">
+                            <li class="flex items-start gap-3">
+                                <svg class="w-5 h-5 text-amber-safety shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                </svg>
+                                <div>
+                                    <span class="block font-medium text-white">9110 McCollough Rd</span>
+                                    <span class="text-steel-400">Grand Bay, AL 36541</span>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <svg class="w-5 h-5 text-amber-safety shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <div>
+                                    <span class="block font-medium text-white">Mon &ndash; Fri: 8:00 AM &ndash; 3:30 PM</span>
+                                    <span class="text-steel-400">Closed Saturday &amp; Sunday</span>
+                                </div>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <svg class="w-5 h-5 text-amber-safety shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                                </svg>
+                                <a href="tel:+12512591118" class="font-semibold text-white hover:text-amber-safety transition-colors">(251) 259-1118</a>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <svg class="w-5 h-5 text-amber-safety shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                                </svg>
+                                <a href="mailto:southernfabricators750@gmail.com" class="font-medium text-amber-safety hover:underline break-all">southernfabricators750@gmail.com</a>
+                            </li>
+                        </ul>
+
+                        <div class="pt-3 border-t border-steel-800">
+                            <a href="https://www.facebook.com/p/Southern-Fabricators-Grand-Bay-100069881666065/" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-steel-800 hover:bg-steel-700 border border-steel-700 text-xs font-semibold text-white hover:text-amber-safety transition-colors">
+                                <svg class="w-4 h-4 fill-current text-amber-safety" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/>
+                                </svg>
+                                <span>Visit Southern Fabricators on Facebook</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="p-5 rounded-xl bg-steel-900/60 border border-steel-800/80 text-sm text-steel-400">
+                        <p class="font-semibold text-steel-200 mb-1">Sending PDF Blueprints or CAD/DXF Files?</p>
+                        <p>Attach your plans directly in an email to <a href="mailto:southernfabricators750@gmail.com" class="text-amber-safety hover:underline">southernfabricators750@gmail.com</a> or log your bid invitation here.</p>
+                    </div>
+                </div>
+
+                <!-- Right Column: Interactive Bid Request Form -->
+                <div class="lg:col-span-7">
+                    <div class="rounded-2xl bg-steel-900 border border-steel-800 p-6 sm:p-10 shadow-2xl">
+                        <!-- Form State -->
+                        <form id="quote-form" class="space-y-6">
+                            <div class="border-b border-steel-800 pb-4">
+                                <h3 class="font-display text-2xl font-bold text-white">Request a Quote / Submit Bid Invitation</h3>
+                                <p class="text-sm text-steel-400 mt-1">All fields marked with <span class="text-amber-safety">*</span> are required.</p>
+                            </div>
+
+                            <div class="grid sm:grid-cols-2 gap-6">
+                                <!-- Contact Name -->
+                                <div>
+                                    <label for="contactName" class="block text-sm font-medium text-steel-200 mb-2">
+                                        Your Name <span class="text-amber-safety">*</span>
+                                    </label>
+                                    <input type="text" id="contactName" name="contactName" required
+                                        placeholder="e.g., John Miller"
+                                        class="w-full px-4 py-3 rounded-lg bg-steel-950 border border-steel-700 text-white placeholder-steel-500 focus:outline-none focus:border-amber-safety focus:ring-1 focus:ring-amber-safety transition-colors">
+                                </div>
+
+                                <!-- Company Name -->
+                                <div>
+                                    <label for="companyName" class="block text-sm font-medium text-steel-200 mb-2">
+                                        Company / Organization <span class="text-amber-safety">*</span>
+                                    </label>
+                                    <input type="text" id="companyName" name="companyName" required
+                                        placeholder="e.g., Gulf Coast General Contractors"
+                                        class="w-full px-4 py-3 rounded-lg bg-steel-950 border border-steel-700 text-white placeholder-steel-500 focus:outline-none focus:border-amber-safety focus:ring-1 focus:ring-amber-safety transition-colors">
+                                </div>
+                            </div>
+
+                            <div class="grid sm:grid-cols-2 gap-6">
+                                <!-- Email -->
+                                <div>
+                                    <label for="email" class="block text-sm font-medium text-steel-200 mb-2">
+                                        Email Address <span class="text-amber-safety">*</span>
+                                    </label>
+                                    <input type="email" id="email" name="email" required
+                                        placeholder="estimator@company.com"
+                                        class="w-full px-4 py-3 rounded-lg bg-steel-950 border border-steel-700 text-white placeholder-steel-500 focus:outline-none focus:border-amber-safety focus:ring-1 focus:ring-amber-safety transition-colors">
+                                </div>
+
+                                <!-- Phone -->
+                                <div>
+                                    <label for="phone" class="block text-sm font-medium text-steel-200 mb-2">
+                                        Phone Number <span class="text-amber-safety">*</span>
+                                    </label>
+                                    <input type="tel" id="phone" name="phone" required
+                                        placeholder="(251) 555-0148"
+                                        class="w-full px-4 py-3 rounded-lg bg-steel-950 border border-steel-700 text-white placeholder-steel-500 focus:outline-none focus:border-amber-safety focus:ring-1 focus:ring-amber-safety transition-colors">
+                                </div>
+                            </div>
+
+                            <div class="grid sm:grid-cols-2 gap-6">
+                                <!-- Project Type Dropdown -->
+                                <div>
+                                    <label for="projectType" class="block text-sm font-medium text-steel-200 mb-2">
+                                        Project Type <span class="text-amber-safety">*</span>
+                                    </label>
+                                    <select id="projectType" name="projectType" required
+                                        class="w-full px-4 py-3 rounded-lg bg-steel-950 border border-steel-700 text-white focus:outline-none focus:border-amber-safety focus:ring-1 focus:ring-amber-safety transition-colors">
+                                        <option value="" disabled selected>Select fabrication category...</option>
+                                        <option value="Structural Steel Fabrication">Structural Steel Fabrication</option>
+                                        <option value="Miscellaneous Metals & Architectural Steel">Miscellaneous Metals &amp; Architectural Steel</option>
+                                        <option value="Industrial Mezzanines & Platforms">Industrial Mezzanines &amp; Platforms</option>
+                                        <option value="Custom Plate, Sheet & Stainless Steel Work">Custom Plate, Sheet &amp; Stainless Steel Work</option>
+                                        <option value="Site Furnishings & Park/Commercial Fabrications">Site Furnishings &amp; Park/Commercial Fabrications</option>
+                                        <option value="Full Division 05 Commercial / Institutional Bid">Full Division 05 Commercial / Institutional Bid</option>
+                                    </select>
+                                </div>
+
+                                <!-- Target Timeline -->
+                                <div>
+                                    <label for="timeline" class="block text-sm font-medium text-steel-200 mb-2">
+                                        Target Timeline / Bid Date <span class="text-amber-safety">*</span>
+                                    </label>
+                                    <select id="timeline" name="timeline" required
+                                        class="w-full px-4 py-3 rounded-lg bg-steel-950 border border-steel-700 text-white focus:outline-none focus:border-amber-safety focus:ring-1 focus:ring-amber-safety transition-colors">
+                                        <option value="" disabled selected>Select target schedule...</option>
+                                        <option value="Immediate / Rush (Under 2 Weeks)">Immediate / Rush (Under 2 Weeks)</option>
+                                        <option value="2 - 4 Weeks (Active Bid)">2 – 4 Weeks (Active Bid)</option>
+                                        <option value="1 - 3 Months (Pre-Construction)">1 – 3 Months (Pre-Construction)</option>
+                                        <option value="3+ Months (Budgetary / Planning)">3+ Months (Budgetary / Planning)</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Project Scope / Drawing Notes -->
+                            <div>
+                                <label for="projectScope" class="block text-sm font-medium text-steel-200 mb-2">
+                                    Project Scope &amp; Drawing Notes <span class="text-amber-safety">*</span>
+                                </label>
+                                <textarea id="projectScope" name="projectScope" rows="4" required
+                                    placeholder="Include project name/location, approximate steel tonnage, linear footage of stairs/railings, material specs (A36, A992, 11ga 304 stainless, aluminum), finish specs, and drawing sheet numbers..."
+                                    class="w-full px-4 py-3 rounded-lg bg-steel-950 border border-steel-700 text-white placeholder-steel-500 focus:outline-none focus:border-amber-safety focus:ring-1 focus:ring-amber-safety transition-colors"></textarea>
+                            </div>
+
+                            <!-- Inline Validation Error Message Box (hidden by default) -->
+                            <div id="form-error" class="hidden p-4 rounded-lg bg-red-950/70 border border-red-700 text-red-200 text-sm">
+                                Please complete all required fields before submitting your bid request.
+                            </div>
+
+                            <button type="submit"
+                                class="w-full py-4 px-6 rounded-lg bg-amber-safety hover:bg-amber-bright text-steel-950 font-bold text-base transition-all shadow-lg shadow-amber-safety/15 flex items-center justify-center gap-2">
+                                <span>Submit Bid / Quote Request</span>
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </button>
+                        </form>
+
+                        <!-- Interactive Confirmation Feedback (Hidden until submission) -->
+                        <div id="quote-confirmation" class="hidden py-6 space-y-6">
+                            <div class="flex items-center gap-4">
+                                <div class="w-14 h-14 rounded-2xl bg-emerald-500/15 border border-emerald-500/40 text-emerald-400 flex items-center justify-center shrink-0">
+                                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <span class="font-mono text-xs uppercase tracking-wider text-emerald-400">Request Logged &bull; Ref #<span id="ref-number">SF-8421</span></span>
+                                    <h3 class="font-display text-2xl font-bold text-white mt-0.5">Bid / Quote Request Received</h3>
+                                </div>
+                            </div>
+
+                            <p class="text-steel-300 leading-relaxed">
+                                Thank you, <strong id="confirm-contact" class="text-white"></strong>. Your fabrication inquiry for <strong id="confirm-company" class="text-white"></strong> has been prepared for our Grand Bay estimating desk. We will follow up at <strong id="confirm-email" class="text-amber-safety"></strong> shortly.
+                            </p>
+
+                            <!-- Summary Ticket -->
+                            <div class="rounded-xl bg-steel-950 border border-steel-800 p-5 space-y-3 text-sm">
+                                <div class="flex justify-between border-b border-steel-800 pb-2 gap-4">
+                                    <span class="text-steel-400">Contact &amp; Phone:</span>
+                                    <span id="confirm-phone" class="font-medium text-white text-right"></span>
+                                </div>
+                                <div class="flex justify-between border-b border-steel-800 pb-2 gap-4">
+                                    <span class="text-steel-400">Fabrication Scope:</span>
+                                    <span id="confirm-type" class="font-medium text-amber-safety text-right"></span>
+                                </div>
+                                <div class="flex justify-between border-b border-steel-800 pb-2 gap-4">
+                                    <span class="text-steel-400">Target Timeline:</span>
+                                    <span id="confirm-timeline" class="font-medium text-white text-right"></span>
+                                </div>
+                                <div class="pt-1">
+                                    <span class="text-steel-400 block mb-1">Scope &amp; Drawing Notes:</span>
+                                    <p id="confirm-scope" class="text-steel-200 text-xs leading-relaxed"></p>
+                                </div>
+                            </div>
+
+                            <!-- Direct Email CAD/PDF Action -->
+                            <div class="rounded-xl bg-steel-950/80 border border-amber-safety/40 p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                                <div class="text-xs text-steel-300">
+                                    <strong class="text-white block text-sm mb-0.5">Have CAD, DXF, or PDF Drawings Ready?</strong>
+                                    Email your files directly to <span class="text-amber-safety font-mono">southernfabricators750@gmail.com</span>
+                                </div>
+                                <a id="direct-email-link" href="mailto:southernfabricators750@gmail.com"
+                                    class="inline-flex items-center justify-center px-4 py-2.5 rounded-lg bg-amber-safety hover:bg-amber-bright text-steel-950 font-bold text-xs shrink-0 transition-colors">
+                                    Email Drawings Now
+                                </a>
+                            </div>
+
+                            <div class="pt-2">
+                                <button id="reset-form-btn" type="button"
+                                    class="px-6 py-3 rounded-lg bg-steel-800 hover:bg-steel-700 border border-steel-700 text-white font-semibold text-sm transition-colors">
+                                    Submit Another Project Inquiry
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-steel-900 border-t border-steel-800 text-steel-400">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+            <div class="grid md:grid-cols-3 gap-10 pb-12 border-b border-steel-800">
+                <!-- Brand Column -->
+                <div class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <div class="w-9 h-9 rounded-lg bg-steel-800 border border-steel-700 flex items-center justify-center">
+                            <svg class="w-5 h-5 text-amber-safety" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M4 3h16v3h-6v12h6v3H4v-3h6V6H4V3z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="font-display font-bold text-base text-white block leading-none">
+                                SOUTHERN FABRICATORS
+                            </span>
+                            <span class="text-[11px] font-semibold tracking-wider text-amber-safety uppercase block mt-1">
+                                Southern Metal Fabrication LLC
+                            </span>
+                        </div>
+                    </div>
+                    <p class="text-sm leading-relaxed text-steel-400 max-w-sm">
+                        Structural steel, architectural &amp; miscellaneous metals, industrial mezzanines, and custom stainless steel fabrication serving Grand Bay, Mobile, Saraland, and the Alabama Gulf Coast.
+                    </p>
+                    <div class="pt-1">
+                        <a href="https://www.facebook.com/p/Southern-Fabricators-Grand-Bay-100069881666065/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2.5 px-4 py-2.5 rounded-lg bg-steel-800 hover:bg-steel-700 border border-steel-700 text-sm font-medium text-steel-200 hover:text-amber-safety transition-colors">
+                            <svg class="w-4 h-4 fill-current text-amber-safety" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/>
+                            </svg>
+                            <span>Southern Fabricators &ndash; Grand Bay on Facebook</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Location & Contact -->
+                <div class="space-y-3">
+                    <h4 class="font-display text-sm font-bold uppercase tracking-wider text-white">Shop Location &amp; Contact</h4>
+                    <ul class="space-y-2.5 text-sm">
+                        <li class="flex items-start gap-2.5">
+                            <svg class="w-5 h-5 text-amber-safety shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                            <span>9110 McCollough Rd<br>Grand Bay, AL 36541</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <svg class="w-5 h-5 text-amber-safety shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <span>Mon&ndash;Fri: 8:00 AM &ndash; 3:30 PM<br>Closed Sat&ndash;Sun</span>
+                        </li>
+                        <li class="flex items-center gap-2.5">
+                            <svg class="w-5 h-5 text-amber-safety shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                            </svg>
+                            <a href="tel:+12512591118" class="hover:text-amber-safety transition-colors">(251) 259-1118</a>
+                        </li>
+                        <li class="flex items-center gap-2.5">
+                            <svg class="w-5 h-5 text-amber-safety shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                            <a href="mailto:southernfabricators750@gmail.com" class="hover:text-amber-safety transition-colors break-all">southernfabricators750@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Service Area & Quick Links -->
+                <div class="space-y-3">
+                    <h4 class="font-display text-sm font-bold uppercase tracking-wider text-white">Service Area &amp; Navigation</h4>
+                    <p class="text-sm text-steel-400 leading-relaxed">
+                        Proudly serving Grand Bay, Mobile, Saraland, Theodore, Bayou La Batre, and commercial &amp; industrial sites across the Alabama Gulf Coast.
+                    </p>
+                    <ul class="space-y-2 text-sm pt-1">
+                        <li><a href="#gallery" class="hover:text-amber-safety transition-colors">Shop &amp; Fabrication Photo Gallery</a></li>
+                        <li><a href="#services" class="hover:text-amber-safety transition-colors">Core Fabrication Services</a></li>
+                        <li><a href="#capabilities" class="hover:text-amber-safety transition-colors">Shop Capabilities &amp; Materials</a></li>
+                        <li><a href="#projects" class="hover:text-amber-safety transition-colors">Representative Gulf Coast Projects</a></li>
+                        <li><a href="#quote" class="text-amber-safety hover:underline font-medium">Request a Bid / Quote &rarr;</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-steel-500">
+                <p>&copy; 2026 Southern Fabricators / Southern Metal Fabrication LLC. All rights reserved.</p>
+                <div class="flex items-center space-x-6">
+                    <a href="#services" class="hover:text-steel-300 transition-colors">Services</a>
+                    <a href="#capabilities" class="hover:text-steel-300 transition-colors">Capabilities</a>
+                    <a href="#projects" class="hover:text-steel-300 transition-colors">Projects</a>
+                    <a href="https://www.facebook.com/p/Southern-Fabricators-Grand-Bay-100069881666065/" target="_blank" rel="noopener noreferrer" class="hover:text-amber-safety transition-colors">Facebook</a>
+                    <a href="#quote" class="hover:text-amber-safety transition-colors">Request a Quote</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Lightbox Modal for Shop Gallery -->
+    <div id="gallery-lightbox" class="hidden fixed inset-0 z-50 bg-steel-950/95 backdrop-blur-md flex items-center justify-center p-4 sm:p-6" role="dialog" aria-modal="true" aria-labelledby="lightbox-title">
+        <div class="relative w-full max-w-4xl rounded-2xl bg-steel-900 border border-steel-700 shadow-2xl overflow-hidden">
+            <div class="flex items-center justify-between px-6 py-4 border-b border-steel-800">
+                <span id="lightbox-tag" class="font-mono text-xs uppercase tracking-wider text-amber-safety">Shop Showcase</span>
+                <button id="lightbox-close" type="button" aria-label="Close Lightbox" class="p-2 rounded-lg bg-steel-800 hover:bg-steel-700 text-steel-200 hover:text-white transition-colors">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+            <div id="lightbox-media" class="bg-steel-950 flex items-center justify-center max-h-[65vh] overflow-hidden p-4"></div>
+            <div class="p-6 border-t border-steel-800">
+                <h3 id="lightbox-title" class="font-display text-xl sm:text-2xl font-bold text-white"></h3>
+                <p id="lightbox-caption" class="text-sm text-steel-300 mt-2 leading-relaxed"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Interactive Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Mobile menu toggle
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const iconOpen = document.getElementById('menu-icon-open');
+            const iconClose = document.getElementById('menu-icon-close');
+            const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+            function toggleMobileMenu() {
+                const isHidden = mobileMenu.classList.contains('hidden');
+                if (isHidden) {
+                    mobileMenu.classList.remove('hidden');
+                    iconOpen.classList.add('hidden');
+                    iconClose.classList.remove('hidden');
+                } else {
+                    mobileMenu.classList.add('hidden');
+                    iconOpen.classList.remove('hidden');
+                    iconClose.classList.add('hidden');
+                }
+            }
+
+            if (mobileMenuBtn) {
+                mobileMenuBtn.addEventListener('click', toggleMobileMenu);
+            }
+
+            mobileNavLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        toggleMobileMenu();
+                    }
+                });
+            });
+
+            // Gallery Category Filtering & Lightbox
+            const filterBtns = document.querySelectorAll('.gallery-filter-btn');
+            const galleryGrid = document.getElementById('gallery-grid');
+            const lightbox = document.getElementById('gallery-lightbox');
+            const lightboxClose = document.getElementById('lightbox-close');
+            const lightboxTitle = document.getElementById('lightbox-title');
+            const lightboxTag = document.getElementById('lightbox-tag');
+            const lightboxCaption = document.getElementById('lightbox-caption');
+            const lightboxMedia = document.getElementById('lightbox-media');
+            const photoUploadInput = document.getElementById('shop-photo-upload');
+
+            let activeFilter = 'all';
+
+            function applyGalleryFilter(filter) {
+                activeFilter = filter;
+                const cards = galleryGrid.querySelectorAll('.gallery-card');
+                cards.forEach(card => {
+                    const category = card.getAttribute('data-category');
+                    if (filter === 'all' || category === filter) {
+                        card.classList.remove('hidden');
+                    } else {
+                        card.classList.add('hidden');
+                    }
+                });
+            }
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    filterBtns.forEach(b => {
+                        b.classList.remove('bg-amber-safety', 'text-steel-950', 'border-amber-safety');
+                        b.classList.add('bg-steel-900', 'text-steel-300', 'border-steel-700');
+                    });
+                    btn.classList.remove('bg-steel-900', 'text-steel-300', 'border-steel-700');
+                    btn.classList.add('bg-amber-safety', 'text-steel-950', 'border-amber-safety');
+                    applyGalleryFilter(btn.getAttribute('data-filter'));
+                });
+            });
+
+            function openLightbox(card) {
+                const title = card.getAttribute('data-title') || 'Shop Fabrication Showcase';
+                const tag = card.getAttribute('data-tag') || 'Southern Fabricators';
+                const caption = card.getAttribute('data-caption') || '';
+                const uploadedImg = card.querySelector('img');
+                const svgEl = card.querySelector('svg');
+
+                lightboxTitle.textContent = title;
+                lightboxTag.textContent = tag;
+                lightboxCaption.textContent = caption;
+                lightboxMedia.innerHTML = '';
+
+                if (uploadedImg) {
+                    const imgClone = document.createElement('img');
+                    imgClone.src = uploadedImg.src;
+                    imgClone.alt = title;
+                    imgClone.className = 'max-h-[60vh] w-auto rounded-xl object-contain';
+                    lightboxMedia.appendChild(imgClone);
+                } else if (svgEl) {
+                    const svgClone = svgEl.cloneNode(true);
+                    svgClone.setAttribute('class', 'w-full max-w-2xl h-auto rounded-xl');
+                    lightboxMedia.appendChild(svgClone);
+                }
+
+                lightbox.classList.remove('hidden');
+            }
+
+            function closeLightbox() {
+                lightbox.classList.add('hidden');
+            }
+
+            if (galleryGrid) {
+                galleryGrid.addEventListener('click', (e) => {
+                    const card = e.target.closest('.gallery-card');
+                    if (card) {
+                        openLightbox(card);
+                    }
+                });
+            }
+
+            if (lightboxClose) {
+                lightboxClose.addEventListener('click', closeLightbox);
+            }
+
+            if (lightbox) {
+                lightbox.addEventListener('click', (e) => {
+                    if (e.target === lightbox) {
+                        closeLightbox();
+                    }
+                });
+            }
+
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && lightbox && !lightbox.classList.contains('hidden')) {
+                    closeLightbox();
+                }
+            });
+
+            // Live In-Browser Shop Photo Uploader
+            if (photoUploadInput && galleryGrid) {
+                photoUploadInput.addEventListener('change', (e) => {
+                    const files = Array.from(e.target.files || []);
+                    files.forEach((file) => {
+                        if (!file.type.startsWith('image/')) return;
+                        const reader = new FileReader();
+                        reader.onload = (event) => {
+                            const cleanName = file.name.replace(/\.[^/.]+$/, '').replace(/[-_]+/g, ' ');
+                            const category = activeFilter === 'all' ? 'structural' : activeFilter;
+                            const newCard = document.createElement('div');
+                            newCard.className = 'gallery-card group rounded-2xl bg-steel-900 border border-amber-safety/60 hover:border-amber-safety overflow-hidden cursor-pointer transition-all flex flex-col';
+                            newCard.setAttribute('data-category', category);
+                            newCard.setAttribute('data-title', cleanName || 'Southern Fabricators Shop Photo');
+                            newCard.setAttribute('data-tag', 'Uploaded Shop Photo // Grand Bay, AL');
+                            newCard.setAttribute('data-caption', 'Uploaded shop and fabrication showcase image from Southern Fabricators (9110 McCollough Rd, Grand Bay, AL).');
+
+                            newCard.innerHTML = `
+                                <div class="relative aspect-[16/10] bg-steel-950 border-b border-steel-800 overflow-hidden">
+                                    <img src="${event.target.result}" alt="${cleanName}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                                    <span class="absolute bottom-3 left-3 px-2.5 py-1 rounded bg-steel-950/90 border border-amber-safety/60 text-[11px] font-mono text-amber-safety">
+                                        Shop Photo
+                                    </span>
+                                </div>
+                                <div class="p-5 flex-1 flex flex-col justify-between">
+                                    <div>
+                                        <h3 class="font-display text-lg font-bold text-white group-hover:text-amber-safety transition-colors capitalize">
+                                            ${cleanName || 'Southern Fabricators Build'}
+                                        </h3>
+                                        <p class="text-xs text-steel-400 mt-1.5 leading-relaxed">
+                                            Custom shop &amp; field fabrication showcase from Southern Fabricators in Grand Bay, AL.
+                                        </p>
+                                    </div>
+                                    <div class="mt-4 pt-3 border-t border-steel-800/80 flex items-center justify-between text-[11px] font-mono text-steel-400">
+                                        <span>9110 McCollough Rd Shop</span>
+                                        <span class="text-amber-safety">Inspect &rarr;</span>
+                                    </div>
+                                </div>
+                            `;
+                            galleryGrid.prepend(newCard);
+                        };
+                        reader.readAsDataURL(file);
+                    });
+                });
+            }
+
+            // Interactive Quote / Bid Form Handling
+            const quoteForm = document.getElementById('quote-form');
+            const quoteConfirmation = document.getElementById('quote-confirmation');
+            const formError = document.getElementById('form-error');
+            const resetFormBtn = document.getElementById('reset-form-btn');
+
+            if (quoteForm) {
+                quoteForm.addEventListener('submit', (e) => {
+                    e.preventDefault();
+                    formError.classList.add('hidden');
+
+                    const contactName = document.getElementById('contactName').value.trim();
+                    const companyName = document.getElementById('companyName').value.trim();
+                    const email = document.getElementById('email').value.trim();
+                    const phone = document.getElementById('phone').value.trim();
+                    const projectType = document.getElementById('projectType').value;
+                    const timeline = document.getElementById('timeline').value;
+                    const projectScope = document.getElementById('projectScope').value.trim();
+
+                    if (!contactName || !companyName || !email || !phone || !projectType || !timeline || !projectScope) {
+                        formError.classList.remove('hidden');
+                        return;
+                    }
+
+                    // Generate a realistic estimating reference number
+                    const randomRef = 'SF-' + Math.floor(1000 + Math.random() * 9000);
+                    document.getElementById('ref-number').textContent = randomRef;
+                    document.getElementById('confirm-contact').textContent = contactName;
+                    document.getElementById('confirm-company').textContent = companyName;
+                    document.getElementById('confirm-email').textContent = email;
+                    document.getElementById('confirm-phone').textContent = contactName + ' (' + phone + ')';
+                    document.getElementById('confirm-type').textContent = projectType;
+                    document.getElementById('confirm-timeline').textContent = timeline;
+                    document.getElementById('confirm-scope').textContent = projectScope;
+
+                    // Pre-populate mailto link with submission reference and scope for attaching CAD/PDF drawings
+                    const subject = encodeURIComponent(`Bid / Quote Request [${randomRef}] - ${companyName} (${projectType})`);
+                    const body = encodeURIComponent(
+                        `Reference: ${randomRef}\n` +
+                        `Contact: ${contactName}\n` +
+                        `Company: ${companyName}\n` +
+                        `Phone: ${phone}\n` +
+                        `Email: ${email}\n` +
+                        `Project Type: ${projectType}\n` +
+                        `Target Timeline: ${timeline}\n\n` +
+                        `Project Scope & Drawing Notes:\n${projectScope}\n\n` +
+                        `[Attach PDF blueprints or CAD/DXF files to this email]`
+                    );
+                    document.getElementById('direct-email-link').href = `mailto:southernfabricators750@gmail.com?subject=${subject}&body=${body}`;
+
+                    // Swap form for confirmation summary
+                    quoteForm.classList.add('hidden');
+                    quoteConfirmation.classList.remove('hidden');
+                });
+            }
+
+            if (resetFormBtn) {
+                resetFormBtn.addEventListener('click', () => {
+                    quoteForm.reset();
+                    quoteConfirmation.classList.add('hidden');
+                    quoteForm.classList.remove('hidden');
+                });
+            }
+        });
+    </script>
+</body>
+</html>
