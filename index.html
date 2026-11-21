@@ -42,6 +42,15 @@
             }
         }
     </script>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+    </style>
 </head>
 <body class="bg-steel-950 text-steel-100 font-sans antialiased selection:bg-amber-safety selection:text-steel-950">
 
@@ -147,7 +156,9 @@
         <div class="absolute inset-0 bg-gradient-to-br from-steel-950 via-steel-950/90 to-steel-900 pointer-events-none"></div>
 
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
-            <div class="grid lg:grid-cols-12 gap-12 items-center">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <!-- Left Column: Hero Headline, Value Proposition & Direct CAD Intake -->
+                <div class="lg:col-span-7 min-w-0 space-y-6">
                     <div class="inline-flex flex-wrap items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-steel-900 border border-steel-700 text-xs font-semibold tracking-wider uppercase text-amber-safety">
                         <span class="w-2 h-2 rounded-full bg-amber-safety animate-pulse"></span>
                         <span>9110 McCollough Rd &bull; Grand Bay, AL</span>
@@ -155,7 +166,7 @@
                         <span class="text-steel-200">&#9733; 5.0 Google Rating (18 Reviews)</span>
                     </div>
 
-                    <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-[1.1]">
+                    <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-[1.12]">
                         Structural Steel &amp; Custom Metal Fabrication in Grand Bay, AL
                     </h1>
 
@@ -163,15 +174,15 @@
                         Southern Fabricators (Southern Metal Fabrication LLC) builds heavy structural steel packages, industrial mezzanines, architectural stairs and railings, and custom 304 stainless steel assemblies for contractors and facilities across the Alabama Gulf Coast.
                     </p>
 
-                    <div class="flex flex-col sm:flex-row gap-4 pt-2">
+                    <div class="flex flex-wrap items-center gap-4 pt-2">
                         <a href="#quote" class="inline-flex items-center justify-center px-7 py-4 rounded-lg bg-amber-safety hover:bg-amber-bright text-steel-950 font-bold text-base transition-all shadow-lg shadow-amber-safety/15">
                             Request a Bid / Quote
-                            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-5 h-5 ml-2 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
                             </svg>
                         </a>
                         <a href="#gallery" class="inline-flex items-center justify-center px-7 py-4 rounded-lg bg-steel-800 hover:bg-steel-700 border border-steel-700 text-white font-semibold text-base transition-all">
-                            <svg class="w-5 h-5 mr-2 text-amber-safety" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-5 h-5 mr-2 text-amber-safety shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
                             </svg>
                             View Shop &amp; Project Gallery
@@ -181,7 +192,7 @@
                     <div class="p-5 rounded-xl bg-steel-900/60 border border-steel-800/80 text-sm text-steel-400 space-y-3">
                         <div>
                             <p class="font-semibold text-steel-200 mb-1">Direct Blueprints, PDFs &amp; CAD Files</p>
-                            <p>Send bid invitations, structural drawings, or DXF/CAD files directly to <a href="mailto:southernfabricators750@gmail.com" class="text-amber-safety hover:underline font-medium">southernfabricators750@gmail.com</a> or submit your project scope below.</p>
+                            <p>Send bid invitations, structural drawings, or DXF/CAD files directly to <a href="mailto:southernfabricators750@gmail.com" class="text-amber-safety hover:underline font-medium break-all">southernfabricators750@gmail.com</a> or submit your project scope below.</p>
                         </div>
                         <div class="pt-3 border-t border-steel-800/80 flex flex-wrap items-center justify-between gap-4">
                             <span class="text-xs text-steel-400">See recent shop builds &amp; field updates:</span>
@@ -196,9 +207,7 @@
                 </div>
 
                 <!-- Hero Right Architectural / Blueprint Spec Card -->
-                <div class="lg:col-span-5">
-                    <div class="rounded-2xl bg-steel-900 border border-steel-800 p-6 sm:p-8 shadow-2xl relative">
-                        <div class="flex justify-between items-center pb-5 mb-6 border-b border-steel-800">
+                <div class="lg:col-span-5 min-w-0">
                             <div>
                                 <span class="text-xs font-mono uppercase tracking-widest text-amber-safety">Grand Bay Shop</span>
                                 <h2 class="font-display text-xl font-bold text-white mt-0.5">Fabrication Readiness</h2>
